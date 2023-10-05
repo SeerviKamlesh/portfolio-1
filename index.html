@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="port.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <nav id="navbar-example2" class="navbar sticky-top z-index-1 ">
+        <a class="navbar-brand" href="#"
+            style="color: rgb(255, 255, 255); font-size: 30px;font-weight:200px ; margin-left: 20px;">PORTFOLIO</a>
+        <ul class="nav nav-pills nav-tags">
+            <li class="nav-item ">
+                <a class="nav-link blue-link" href="#scrollspyHeading1">home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  blue-link" href="#scrollspyHeading2">project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  blue-link" href="#scrollspyHeading3">aboutme</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  blue-link" href="#scrollspyHeading4">contactus</a>
+            </li>
+
+        </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example  p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1"></h4>
+        <div class="first">
+            <div class="left">
+                Hi,I'm <span style="color: tomato;">kamlesh</span>
+                <div>
+                    And Iam a passionate
+                    <span id="element"></span>
+                </div>
+                <div class="git ">
+                    <a href=""><i class="bi bi-file-person"></i> resume</a>
+                    <a href="https://github.com/SeerviKamlesh" style="margin-left: 15px;"><i class="bi bi-github"></i> visit Github</a>
+
+                </div>
+            </div>
+            <div class="right">
+                <img src="PngItem_1127587.png" alt="" class="img-fluid">
+            </div>
+
+        </div>
+        <h2 style="text-align: center; color:tomato;margin-top: 30px;"><i
+                class="bi bi-chevron-compact-left"></i>PROJECTS<i class="bi bi-chevron-compact-right"></i></h2>
+        <div class="second mx-50" id="scrollspyHeading2">
+            <div class="card" style="background-color: rgb(29, 29, 83);;">
+                <img src="pet.jpeg" alt="" class="image1">
+                <h4>Pet-shop</h4>
+                <div class="code">
+                    <a href="https://github.com/SeerviKamlesh/pet-shop/commit/da8ec39d80b49490b17aeb249a6249f0dee973d5"><i class="bi bi-github"></i> code</a>
+                    <a href="/assingment/pet shop project/index.html"><i class="bi bi-globe"></i> visit</a>
+                </div>
+            </div>
+            <div class="card" style="background-color: rgb(29, 29, 83);">
+                <img src="resturant.jpg" alt="" class="image1">
+                <h4>Resturant</h4>
+                <div class="code">
+                    <a href="https://github.com/SeerviKamlesh/resturant/commit/22b2ad561318aa2501bcb25decf7af66c9b57fad"><i class="bi bi-github"></i> code</a>
+                    <a href="/assingment/resturant-project/index.html"><i class="bi bi-globe"></i> visit</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <h3 id="scrollspyHeading3"
+            style="text-align: center;color: tomato;margin-top: 50px;text-decoration: underline;">ABOUT</h3>
+        <div class="third ">
+            <div class="image">
+                <img src="download.jpg" alt="" class="img-fluid ">
+            </div>
+            <div class="about">
+                <h4 style="color: green; text-align: center;font-size:35px;text-decoration: underline;">WEB DEVELOPER
+                </h4>
+                <p style="color: tomato;font-size: 20px; font-weight: bold;">SKILLS:[Html,Css,Bootstrap,Python]</p>
+                <p> A passionate newcomer to the world of web development
+                    I embarked on this journey driven by a love for technology and problem-solving.
+                    Currently, I'm honing my skills in <span style="color: aqua;">[full stack web developer]</span> .
+                </p>
+            </div>
+        </div>
+        <h4 id="scrollspyHeading4" style="text-align: center;"></h4>
+        <div class="contact">
+            <h4 style="text-align: center;color:tomato;margin-top: 50px;text-decoration: underline;">CONTACT-ME</h4>
+            <div class="icon">
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-whatsapp"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+            <div class="mail">
+                <a href=""><i class="bi bi-envelope-at-fill" style="font-size: 25px;"></i>
+                    Mail:kamleshseervi1000@gmail.com</a>
+                <a href=""><i class="bi bi-c-circle"></i>copyright:2012-2030s</a>
+                <a href="#"><i class="bi bi-telephone-fill" style="font-size: 25px; "></i>+9180749984</a>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
